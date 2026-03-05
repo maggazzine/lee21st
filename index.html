@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ora Turns 21</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="topbar glass reveal">
+      <div class="brand">ORA<span>21</span></div>
+      <nav>
+        <a href="#invitation">Invitation</a>
+        <a href="#rsvp">RSVP</a>
+        <a href="#wishlist">Wishlist</a>
+        <a href="#cms">CMS</a>
+      </nav>
+      <button class="ghost">Save the Date</button>
+    </header>
+
+    <main>
+      <section class="hero" id="invitation">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <p class="eyebrow reveal">Birthday Celebration 2026</p>
+        <h1 class="reveal">Ora's 21st Birthday</h1>
+        <p class="subtitle reveal">
+          A dark, elegant, modern night to celebrate Ora turning twenty-one.
+        </p>
+
+        <div class="event-grid reveal">
+          <article class="event-card glass">
+            <p class="label">Birthday</p>
+            <p class="value">7 April 2026</p>
+          </article>
+          <article class="event-card glass">
+            <p class="label">Dinner</p>
+            <p class="value">11 April 2026</p>
+          </article>
+          <article class="event-card glass">
+            <p class="label">Latest RSVP</p>
+            <p class="value">14 March 2026</p>
+          </article>
+          <article class="event-card glass">
+            <p class="label">Venue</p>
+            <p class="value">To be Confirmed</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel reveal" id="rsvp">
+        <div class="panel-head">
+          <p class="eyebrow">RSVP</p>
+          <h2>Confirm your attendance</h2>
+          <p>UI preview only. Buttons and forms are visual placeholders.</p>
+        </div>
+
+        <form class="rsvp-form glass">
+          <label>
+            Full name
+            <input type="text" placeholder="Enter your name" />
+          </label>
+          <label>
+            Phone number
+            <input type="text" placeholder="+27 ..." />
+          </label>
+          <label>
+            Guests
+            <select>
+              <option>Just me</option>
+              <option>+1 guest</option>
+              <option>+2 guests</option>
+            </select>
+          </label>
+          <label>
+            Message for Ora
+            <textarea rows="4" placeholder="Write a sweet message..."></textarea>
+          </label>
+          <div class="actions">
+            <button type="button" class="primary">I'll be there</button>
+            <button type="button" class="ghost">Maybe</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="panel reveal" id="wishlist">
+        <div class="panel-head">
+          <p class="eyebrow">Wishlist</p>
+          <h2>Gift inspiration</h2>
+        </div>
+
+        <div class="wish-grid">
+          <article class="wish-card glass">
+            <p class="wish-tag">Fashion</p>
+            <h3>Classic Silver Jewelry</h3>
+            <p>Minimal and timeless pieces to match the evening aesthetic.</p>
+          </article>
+          <article class="wish-card glass">
+            <p class="wish-tag">Experience</p>
+            <h3>Weekend Spa Escape</h3>
+            <p>A calm, luxurious break after the celebrations.</p>
+          </article>
+          <article class="wish-card glass">
+            <p class="wish-tag">Tech</p>
+            <h3>Premium Headphones</h3>
+            <p>For focused work, travel, and immersive sound.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel reveal" id="cms">
+        <div class="panel-head">
+          <p class="eyebrow">CMS Preview</p>
+          <h2>Admin dashboard concept</h2>
+          <p>Visual-only prototype for RSVP management and wishlist editing.</p>
+        </div>
+
+        <div class="cms-grid">
+          <article class="cms-card glass">
+            <h3>Recent RSVPs</h3>
+            <div class="table">
+              <div class="row head"><span>Name</span><span>Status</span><span>Guests</span></div>
+              <div class="row"><span>Lebo M.</span><span class="good">Attending</span><span>2</span></div>
+              <div class="row"><span>Kayla P.</span><span class="mid">Maybe</span><span>1</span></div>
+              <div class="row"><span>Thabo R.</span><span class="bad">Declined</span><span>0</span></div>
+            </div>
+          </article>
+
+          <article class="cms-card glass">
+            <h3>Wishlist Manager</h3>
+            <ul class="wish-admin">
+              <li><span>Silver Jewelry</span><button type="button">Delete</button></li>
+              <li><span>Spa Escape</span><button type="button">Delete</button></li>
+              <li><span>Headphones</span><button type="button">Delete</button></li>
+            </ul>
+            <div class="add-wish">
+              <input type="text" placeholder="Add wishlist item" />
+              <button type="button" class="primary">Add Item</button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="reveal">
+      <p>Ora 21 • Dark Edition • UI Prototype</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
